@@ -8,6 +8,8 @@ namespace DI_Service_Lifetime.Controllers
 {
 	public class HomeController : Controller
 	{
+		//Dependency Injection Lifetimes in .NET Core
+		
 		// Transient New Service - every time requested
 		// Scoped New Service - once per request
 		// Singleton New Service - once per application lifetime
